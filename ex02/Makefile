@@ -3,7 +3,7 @@
 # Chapter 02: Make all and make [target]
 
 # make [TARGET] -> Executes instructions related to a
-#									 specific target.
+#                  specific target.
 
 # The target all has priority over other targets.
 # When using "make" command, the first instructions
@@ -17,8 +17,8 @@ all:
 other_target:
 	@echo "this one has less priority than 'make all' "
 
-# it is also possible group many targets in only one 
-# set of instructions. 
+# it is also possible group many targets in only one
+# set of instructions.
 # use \ to use more than one line for a single insctruction.
 target1 target2 target3:
 	@echo "Same command is executed for 'make target1',\
@@ -29,7 +29,7 @@ target1 target2 target3:
 create_folder:
 	@mkdir folder
 	# show created directory after its creations
-	@ls 
+	@ls
 
 delete_folder:
 	@rm -rf folder

@@ -4,13 +4,13 @@
 
 ## Basic Structure
 
-# target:	dependencies
+# target: dependencies
 # [TAB]command
 
 # DON'T FORGET TO USE TAB AFTER EACH INSTRUCTION!
 
 # Using Make on Terminal -> A Makefile file will be searched
-# 													and its instructions will be executed.
+#                           and its instructions will be executed.
 
 # Use @ to do silent messages
 

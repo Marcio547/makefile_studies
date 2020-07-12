@@ -22,7 +22,7 @@
 #    produce file_exec from file.o with another one. At first this
 #    can sound strange, but it will make sense if we think that file_exec
 #    could be a file that is produced from more than one object file,
-#		 what is usual when dealing with larger projects.
+#    what is usual when dealing with larger projects.
 
 # when listing a dependency on a Makefile, it will search for another
 # instruction containing the dependency name as a target, as can be
@@ -33,7 +33,7 @@ all: file.o file.cpp
 	g++ file.cpp -o file_exec
 
 # here we will break the command above in two parts:
-# 1) g++ -c file.cpp g++   2) g++ file.o -o file_exec
+# 1) g++ -c file.cpp g++  2) g++ file.o -o file_exec
 
 # in order to execute the target "compile", we need file.o
 # make will search for the command with file.o as a target.
